@@ -1,0 +1,7 @@
+cassandra:
+  keyspace: demo_test
+  contact-points: localhost
+  port: 9342
+  replication-strategy: SimpleStrategy
+  startup-timeout: 30
+  storagedir:
